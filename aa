@@ -70,7 +70,7 @@ end)
 ui.set_callback(ui.new_checkbox("LUA", "A", "Activate Eagle-Antiaim"), function (slot0)
 	client.set_event_callback("paint", function (slot0)
 		if ui.get(uv0) then
-			if ui.get(uv1) == "Chen Static" then
+			if ui.get(uv1) == "fake Static" then
 				if ui.get(uv2) then
 					ui.set(uv3, "180")
 					ui.set(uv4, 5)
